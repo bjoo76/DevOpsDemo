@@ -1,5 +1,9 @@
 pipeline {
+<<<<<<< HEAD
   agent { label 'main' }
+=======
+  agent { label 'master' }
+>>>>>>> e3232f3d24199314b75c905d57f10aa8c0de131d
 
   parameters {
     booleanParam(name : 'BUILD_DOCKER_IMAGE', defaultValue : true, description : 'BUILD_DOCKER_IMAGE')
