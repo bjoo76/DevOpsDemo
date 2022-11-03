@@ -19,4 +19,4 @@ jobs:
         fetch-depth: 1
     - name: build the Docker image
       run: |
-        docker build -f Dockerfile -t 287451751279.dkr.ecr.ap-northeast-2.amazonaws.com:1.0.0 .
+        docker build -f Dockerfile -t 287451751279.dkr.ecr.ap-northeast-2.amazonaws.com/my-nginx:1.0.0 .
